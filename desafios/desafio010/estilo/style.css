@@ -57,7 +57,7 @@ header > p {
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
     text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.267);
 }
 nav {
@@ -65,15 +65,18 @@ nav {
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);  
 }
-nav > a {
+nav ul {
+    width: 1000px;
+    margin: auto;
+}
+nav ul > a {
     color: var(--cor-1);
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
-    
 }
-nav > a:hover {
+nav ul > a:hover {
     background-color: var(--cor-3);
     color: var(--cor-5);
     border-radius: 5px;
