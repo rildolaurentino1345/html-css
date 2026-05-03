@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Pagina</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background-color: rgb(238, 238, 240);
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        header {
+            background-color: bisque;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            min-height: 50px;
+        }
+        header nav ul {
+            display: flex;
+            list-style: none;
+        }
+        header nav ul li {
+            margin:0 15px ;
+        }
+
+        header nav ul li a {
+            
+            text-decoration: none;
+            color: black;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        section.container {
+            background-color: aquamarine;
+            padding:10px;
+            margin: 10px 0;
+           
+        }
+        section.container .interface {
+            
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        section.container div.conteudo {
+            border: 1px solid black;
+            border-radius: 5px;
+            padding:10px ;
+            max-width:315px;
+            flex: auto;
+        }
+        section.container div.conteudo p {
+            text-align: justify;
+            
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plugmatica </h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">contato</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Portifolio</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="interface">
+                <div class="conteudo">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, eum. Blanditiis asperiores eveniet ipsam, voluptates magni distinctio mollitia minus excepturi vitae repudiandae vero soluta, magnam saepe? Perspiciatis, distinctio ad? At?
+                    </p>
+                </div>
+                
+                <div class="conteudo">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus adipisci, nihil cupiditate ipsam eos temporibus consectetur sit tenetur harum consequuntur veniam eum sequi laboriosam ullam incidunt! Deserunt molestias doloribus delectus?</p>
+                </div>
+                <div class="conteudo">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam accusantium eos neque aliquid commodi. Quod ea libero eos ipsa nulla quisquam nisi hic minus, quos debitis. Accusamus facere reprehenderit voluptate.</p>
+                </div>
+                <div class="conteudo">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam accusantium eos neque aliquid commodi. Quod ea libero eos ipsa nulla quisquam nisi hic minus, quos debitis. Accusamus facere reprehenderit voluptate.</p>
+                </div>
+                <div class="conteudo">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam accusantium eos neque aliquid commodi. Quod ea libero eos ipsa nulla quisquam nisi hic minus, quos debitis. Accusamus facere reprehenderit voluptate.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
